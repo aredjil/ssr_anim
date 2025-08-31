@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -march=native -O3 -march=native CMakeFiles/ssr_animation.x.dir/main.cpp.o -o ssr_animation.x  /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1 -lbox2d 

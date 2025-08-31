@@ -1,3 +1,0 @@
-/home/aredjil/projects/ssr_anim/build/CMakeFiles/ssr_animation.x.dir
-/home/aredjil/projects/ssr_anim/build/CMakeFiles/edit_cache.dir
-/home/aredjil/projects/ssr_anim/build/CMakeFiles/rebuild_cache.dir
