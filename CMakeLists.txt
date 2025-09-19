@@ -10,5 +10,7 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -march=native")
 endif()
 
-add_executable(ssr_animation.x main.cpp)
-target_link_libraries(ssr_animation.x sfml-graphics sfml-window sfml-system box2d)
+add_executable(${PROJECT_NAME} main.cpp)
+
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include)
+target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-window sfml-system box2d)
